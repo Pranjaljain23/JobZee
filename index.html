@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Insured International</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero-section">
+        <header class="navbar">
+            <img src="logo.jpg" alt="Travel Insured International Logo" class="logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Compare Plans</a></li>
+                    <li><a href="#">Claims</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Coverage Alerts</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <a href="#">Login</a>
+            </div>
+        </header>
+        <div class="container">
+            <div class="quote-box">
+                <h2>Help us choose the right plan for you</h2>
+                <div class="plan-options">
+                    <input type="radio" id="one-trip" name="plan" value="one-trip" checked>
+                    <label for="one-trip">ONE TRIP</label>
+                    <input type="radio" id="annual" name="plan" value="annual">
+                    <label for="annual">ANNUAL</label>
+                </div>
+                <form class="quote-form">
+                    <div class="form-group">
+                        <label for="travel-date">Dates of Travel</label>
+                        <input type="date" id="travel-date" name="travel-date">
+                    </div>
+                    <div class="form-group">
+                        <label for="residence">State of Residence</label>
+                        <input type="text" id="residence" name="residence">
+                    </div>
+                    <div class="form-group">
+                        <label for="traveler-info">Traveler Info</label>
+                        <input type="text" id="traveler-info" name="traveler-info">
+                    </div>
+                    <div class="form-group">
+                        <label for="payment-date">Initial Payment</label>
+                        <input type="date" id="payment-date" name="payment-date">
+                    </div>
+                    <button type="submit">Get a Quote</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

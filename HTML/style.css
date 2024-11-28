@@ -1,0 +1,232 @@
+/* Reset some basic styles */
+body, h1, h3, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: auto;
+    height: 190px;
+    margin-right: 10px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-links .btn-logout {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.hero-section .hero-content {
+    flex: 1;
+}
+
+.hero-section .hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-content p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.hero-section .hero-image {
+    flex: 1;
+}
+
+.hero-section .hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.details-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.details-section .details-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.details-section .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.details-section .card i {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.details-section .card .card-content p:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.details-section .card .card-content p:last-child {
+    color: #666;
+}
+
+.how-it-works {
+    background-color: #f0f2f5;
+    padding: 40px 0;
+}
+
+.how-it-works .container {
+    text-align: center;
+}
+
+.how-it-works h3 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.how-it-works .banner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.how-it-works .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.how-it-works .card i {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.how-it-works .card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.how-it-works .dark-card {
+    background-color: white;
+    color: black;
+}
+
+.popular-categories {
+    padding: 40px 0;
+}
+
+.popular-categories .container {
+    text-align: center;
+}
+
+.popular-categories h3 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.popular-categories .category-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.popular-categories .category-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.popular-categories .category-card i {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.popular-categories .category-card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.box {
+    background: #fff;
+    text-decoration: none;
+    width: 320px;
+    height: 220px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box a {
+    text-decoration: none;
+    padding: 7px;
+    font-size: 20px;
+    color: #2d5649;
+    background: rgb(233, 249, 255);
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.application-sect h3 {
+    font-size: 2.2rem;
+    margin-left: 35px;
+}
+
+.application-sect h1 {
+    font-size: 4rem;
+    padding: 35px;
+}
